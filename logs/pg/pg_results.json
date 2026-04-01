@@ -1,0 +1,226 @@
+{
+  "PPO": [
+    {
+      "run": 1,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "mean_reward": 102.37,
+      "std_reward": 98.57
+    },
+    {
+      "run": 2,
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "mean_reward": 199.77,
+      "std_reward": 129.3
+    },
+    {
+      "run": 3,
+      "learning_rate": 0.0001,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "mean_reward": 50.11,
+      "std_reward": 114.69
+    },
+    {
+      "run": 4,
+      "learning_rate": 0.0003,
+      "gamma": 0.95,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "mean_reward": 351.19,
+      "std_reward": 59.32
+    },
+    {
+      "run": 5,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.05,
+      "mean_reward": 206.67,
+      "std_reward": 131.8
+    },
+    {
+      "run": 6,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.0,
+      "mean_reward": 302.49,
+      "std_reward": 125.06
+    },
+    {
+      "run": 7,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.1,
+      "ent_coef": 0.01,
+      "mean_reward": 103.0,
+      "std_reward": 100.13
+    },
+    {
+      "run": 8,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 256,
+      "batch_size": 64,
+      "n_epochs": 10,
+      "clip_range": 0.3,
+      "ent_coef": 0.01,
+      "mean_reward": 150.56,
+      "std_reward": 120.65
+    },
+    {
+      "run": 9,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "n_steps": 512,
+      "batch_size": 128,
+      "n_epochs": 15,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "mean_reward": 115.7,
+      "std_reward": 104.87
+    },
+    {
+      "run": 10,
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "n_steps": 512,
+      "batch_size": 128,
+      "n_epochs": 10,
+      "clip_range": 0.2,
+      "ent_coef": 0.02,
+      "mean_reward": 280.57,
+      "std_reward": 124.12
+    }
+  ],
+  "REINFORCE": [
+    {
+      "run": 1,
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 329.01,
+      "std_reward": 190.81
+    },
+    {
+      "run": 2,
+      "learning_rate": 0.005,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 232.65,
+      "std_reward": 43.41
+    },
+    {
+      "run": 3,
+      "learning_rate": 0.01,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": -37.25,
+      "std_reward": 86.4
+    },
+    {
+      "run": 4,
+      "learning_rate": 0.0005,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 217.64,
+      "std_reward": 130.19
+    },
+    {
+      "run": 5,
+      "learning_rate": 0.001,
+      "gamma": 0.95,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 452.47,
+      "std_reward": 42.04
+    },
+    {
+      "run": 6,
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.05,
+      "gae_lambda": 1.0,
+      "mean_reward": 35.12,
+      "std_reward": 99.85
+    },
+    {
+      "run": 7,
+      "learning_rate": 0.001,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.0,
+      "gae_lambda": 1.0,
+      "mean_reward": 27.95,
+      "std_reward": 96.01
+    },
+    {
+      "run": 8,
+      "learning_rate": 0.001,
+      "gamma": 0.999,
+      "n_steps": 100,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 21.75,
+      "std_reward": 84.81
+    },
+    {
+      "run": 9,
+      "learning_rate": 0.002,
+      "gamma": 0.99,
+      "n_steps": 50,
+      "ent_coef": 0.01,
+      "gae_lambda": 1.0,
+      "mean_reward": 495.07,
+      "std_reward": 119.98
+    },
+    {
+      "run": 10,
+      "learning_rate": 0.005,
+      "gamma": 0.99,
+      "n_steps": 100,
+      "ent_coef": 0.02,
+      "gae_lambda": 1.0,
+      "mean_reward": 315.53,
+      "std_reward": 90.09
+    }
+  ]
+}
