@@ -14,7 +14,7 @@ The "game board" is the patient monitor, and winning means the patient survives.
 ##  Project Structure
 
 ```
-Relebohile_rl_summative/
+Relebohile_RL_Summative/
 ├── environment/
 │   ├── custom_env.py        # ICU Sepsis Gymnasium environment
 │   └── rendering.py         # Pygame ICU patient monitor dashboard
@@ -43,8 +43,8 @@ Relebohile_rl_summative/
 ## Setup
 
 ```bash
-git clone https://github.com/relebohile_pheko/rele_rl_summative.git
-cd rele_rl_summative
+git clone https://github.com/relebohile_pheko/Relebohile_RL_Summative.git
+cd Relebohile_RL_Summative
 pip install -r requirements.txt
 ```
 
